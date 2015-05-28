@@ -5,11 +5,6 @@ __author__ = 'danielwray'
 # Version 0.1
 # #############################################################################
 
-from scripting_practice.raytracer import vector
-from scripting_practice.raytracer import ray
-from scripting_practice.raytracer import obj
-
-
 class World:
 
     def __init__(self):
@@ -25,4 +20,3 @@ class World:
 
     def get_background(self):
         return self.background
-

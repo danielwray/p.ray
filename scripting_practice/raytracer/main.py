@@ -34,7 +34,7 @@ class Main:
             return origin_to_w_origin
 
 
-# List of settings below
+# debug
 world_colour = "black"
 camera_position = [1.0, 2.0, 3.0]
 camera_direction = [2.0, -1.0, 4.0]
@@ -43,8 +43,6 @@ light_intensity = 10.0
 window_height = 2
 window_width = 2
 object001 = obj.Sphere("Sphere.001", [1.0, 2.5, 1.0], [1.0, 1.0, 0.5], 2.0)
-
-
 scene = Main(world_colour, camera_position, light_position, window_height, window_width)
 print(scene.rendering_loop())
 print(scene.create_objects(object001))

@@ -5,8 +5,8 @@ __author__ = 'danielwray'
 # Version 0.1
 # #############################################################################
 
-from scripting_practice.raytracer import vector
-from scripting_practice.raytracer import ray
+import scripting_practice.raytracer.vector as vector
+import scripting_practice.raytracer.ray as ray
 
 
 class Object(object):
