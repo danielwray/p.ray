@@ -3,7 +3,10 @@
 
 A simple Python ray-tracer; created in order to better understand Python, and CGI-related mathmatics.
 
-<b>Commit History
+<b>Origin</b>
 
-15-05-28:
-  - Initial code commit
+Development branch
+
+<b>Master</b>
+
+Stable Branch
